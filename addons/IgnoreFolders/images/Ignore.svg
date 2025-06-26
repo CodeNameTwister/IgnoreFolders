@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 12 12"
+   enable-background="new 0 0 12 12"
+   xml:space="preserve"
+   id="svg2"
+   sodipodi:docname="Ignore.svg"
+   inkscape:export-filename="Ignore.svg"
+   inkscape:export-xdpi="6"
+   inkscape:export-ydpi="6"
+   width="12"
+   height="12"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs2" /><sodipodi:namedview
+   id="namedview2"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#505050"
+   showgrid="false"
+   inkscape:zoom="6.3860581"
+   inkscape:cx="-1.0178423"
+   inkscape:cy="6.9683049"
+   inkscape:window-width="1286"
+   inkscape:window-height="745"
+   inkscape:window-x="66"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg2" />
+<metadata
+   id="metadata1"> Twister </metadata>
+<g
+   id="g2"
+   transform="matrix(0.07500002,0,0,0.07500002,-3.5922866,-3.2579882)"><g
+     id="g1"><path
+       fill="#ffffff"
+       d="M 174.59738,94.552389 190.71428,77.289105 174.12533,61.779123 153.62519,83.695401 C 145.73533,80.863144 137.17111,79.109842 128,79.109842 c -47.743773,0 -79.572953,47.743778 -79.572953,47.743778 0,0 12.677724,19.01657 33.987092,33.04299 l -17.600458,18.81428 16.588938,15.50999 22.253451,-23.80445 c 7.55269,2.56252 15.64485,4.18095 24.34393,4.18095 47.74377,0 79.57295,-47.74376 79.57295,-47.74376 0,0 -12.27312,-18.34224 -32.97557,-32.301231 z M 96.305683,126.65131 c 0,-17.46559 14.161297,-31.694313 31.694317,-31.694313 4.45069,0 8.7665,0.944085 12.61029,2.629951 L 128.2023,110.87159 c -0.0675,0 -0.2023,0 -0.26974,0 -8.76651,0 -15.84716,7.08064 -15.84716,15.84716 0,0.47204 0,0.87665 0.0675,1.34869 l -12.273138,13.14977 c -2.29279,-4.38326 -3.57405,-9.30599 -3.57405,-14.5659 z M 128,158.34562 c -3.91121,0 -7.68756,-0.74178 -11.12673,-2.02305 l 12.94747,-13.82411 c 7.62012,-0.87665 13.55437,-7.14807 13.95898,-14.90306 l 13.08233,-14.02642 c 1.82074,3.97864 2.83225,8.42934 2.83225,13.08233 0,17.53302 -14.22871,31.69431 -31.6943,31.69431 z"
+       id="path1"
+       style="stroke-width:0.674348" /></g></g>
+</svg>
