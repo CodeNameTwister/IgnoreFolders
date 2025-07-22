@@ -18,7 +18,7 @@ Also for scripts that you want to leave for later and that you have half done an
 ## How Work
 * In the File System Dock Press RMB (Right Mouse Button) in any folder of you want mark ignore/unignore.
 
-* File System Dock has a button on top for show/hide ignored files (.godot not included)
+* File System Dock has a button on top for show/hide ignored files, you can see the ignored folders at the end. (.godot not included)
 
 ## Preview
 ![Preview1](images/preview0.png)
