@@ -20,10 +20,15 @@ var _show_ignored_items : bool = false:
 	set(e):
 		if _show_ignored_items != e:
 			_show_ignored_items = e
-			_save()
-			update()
+			if is_node_ready():
+				_save()
+				update()
 		else:
 			_show_ignored_items = e
+			if is_node_ready():
+				var file : EditorFileSystem = EditorInterface.get_resource_filesystem()
+				if file:
+					file.scan()
 
 var _buffer : PackedStringArray = []
 var _tree : Tree = null
