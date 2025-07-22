@@ -15,6 +15,7 @@ const IGNORE : String = ".gdignore"
 const IGNORE_OVER_ICON : Texture2D = preload("res://addons/IgnoreFolders/images/Ignore.svg")
 
 var _menu_service : EditorContextMenuPlugin = null
+var _fupdate : bool = false
 
 var _show_ignored_items : bool = false:
 	set(e):
@@ -25,7 +26,8 @@ var _show_ignored_items : bool = false:
 				update()
 		else:
 			_show_ignored_items = e
-			if is_node_ready():
+			if is_node_ready() and _fupdate:
+				_fupdate = false
 				var file : EditorFileSystem = EditorInterface.get_resource_filesystem()
 				if file:
 					file.scan()
@@ -62,6 +64,7 @@ func _check_buffer() -> void:
 func update() -> void:
 	if _buffer.size() == 0:return
 	if _busy or !_show_ignored_items:return
+	_fupdate = true
 	_busy = true
 	_check_buffer()
 	var root : TreeItem = _tree.get_root()
