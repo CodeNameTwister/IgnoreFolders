@@ -21,6 +21,7 @@ var _show_ignored_items : bool = false:
 		if _show_ignored_items != e:
 			_show_ignored_items = e
 			_save()
+			update()
 		else:
 			_show_ignored_items = e
 
@@ -54,11 +55,10 @@ func _check_buffer() -> void:
 		
 
 func update() -> void:
-	_check_buffer()
-	
 	if _buffer.size() == 0:return
-	if _busy:return
+	if _busy or !_show_ignored_items:return
 	_busy = true
+	_check_buffer()
 	var root : TreeItem = _tree.get_root()
 	var item : TreeItem = root.get_first_child()
 
@@ -280,6 +280,8 @@ func get_all_dirs_recursive(path: String, files_array: PackedStringArray = []) -
 			var current_path : String = path.path_join(file_name)
 			if FileAccess.file_exists(current_path.path_join(IGNORE)):
 				files_array.append(current_path)
+				file_name = dir.get_next()
+				continue
 			get_all_files_recursive(current_path, files_array)
 		file_name = dir.get_next()
 	dir.list_dir_end()
